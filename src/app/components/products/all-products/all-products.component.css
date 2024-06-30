@@ -1,0 +1,78 @@
+
+
+table{
+
+    width: 100%;
+}
+
+table img{
+
+    width:110px ;
+    height: 110px;
+   
+}
+
+
+
+table h5{
+    width: 110px;
+}
+
+table th{
+
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+table tr{
+    -webkit-transform: scale(.9);
+	transform: scale(.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+table tr:hover{
+
+    background-color: rgb(236, 237, 237);
+    -webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+table .alert{
+
+    border-radius: 150px;
+    text-align: center;
+    font-size:18px;
+    font-weight: 600;
+    width: 60%;
+    height: 50px;
+
+}
+
+table button{
+
+    width: 60%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(58, 133, 245);
+    font-weight: 600;
+    font-size: 18px;
+    transition: 2s;
+    color: antiquewhite;
+
+}
+
+table button:hover{
+ 
+     background-color: rgb(120, 209, 245);
+    
+   
+}
+
+.catego{
+
+    width: 100%;
+    height: 150px;
+}

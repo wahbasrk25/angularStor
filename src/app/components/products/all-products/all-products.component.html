@@ -1,0 +1,37 @@
+
+<div class="container">
+<h1 class="aler alert-danger text-center">All Products</h1>
+
+<div class="catego">
+    <select name="" id="" (change)="getChange($event);">
+      <option value="All" selected>All</option>
+      <option value="option" *ngFor="let option of categories">{{option}}</option>
+    
+    </select>
+</div>
+
+ <table class="table table-borderde ">
+
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Image</th>
+    <th>Price</th>
+  </tr>
+  <tr *ngFor="let item of productData">
+    <td><p class="card-text">{{item.id}}</p></td>
+    <td><h5 class="card-title">{{item.title}}</h5></td>
+    <td><img src='{{item.image}}' class="card-img-top"></td>
+    <td>
+      <div class="alert alert-danger">{{ item.price}} LE</div>
+      <button>Add to card</button>
+    </td>
+  </tr>
+ </table>
+
+
+</div>
+
+
+
+
